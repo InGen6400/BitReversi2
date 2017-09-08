@@ -113,9 +113,18 @@
   <ItemGroup>
     <ClCompile Include="BitBoard.cpp" />
     <ClCompile Include="BitReversi2.cpp" />
+    <ClCompile Include="CPU.cpp" />
+    <ClCompile Include="Evaluation.cpp" />
+    <ClCompile Include="Ordering.cpp" />
+    <ClCompile Include="TlsHash.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BitBoard.h" />
+    <ClInclude Include="CPU.h" />
+    <ClInclude Include="Evaluation.h" />
+    <ClInclude Include="Flags.h" />
+    <ClInclude Include="Ordering.h" />
+    <ClInclude Include="TlsHash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
