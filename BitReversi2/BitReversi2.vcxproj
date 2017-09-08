@@ -73,8 +73,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>Disabled</Optimization>
+      <Optimization>MaxSpeed</Optimization>
       <SDLCheck>true</SDLCheck>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -123,6 +126,7 @@
     <ClInclude Include="CPU.h" />
     <ClInclude Include="Evaluation.h" />
     <ClInclude Include="Flags.h" />
+    <ClInclude Include="Macros.h" />
     <ClInclude Include="Ordering.h" />
     <ClInclude Include="TlsHash.h" />
   </ItemGroup>
